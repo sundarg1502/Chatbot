@@ -1,0 +1,70 @@
+{
+    "greeting": {
+        "patterns": ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"],
+        "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Greetings! How may I assist you?"]
+    },
+    "farewell": {
+        "patterns": ["bye", "goodbye", "see you later", "farewell"],
+        "responses": ["Goodbye! Have a great day!", "Farewell! Feel free to return if you have more questions.", "See you later! Take care!"]
+    },
+    "thanks": {
+        "patterns": ["thank you", "thanks", "appreciate it"],
+        "responses": ["You're welcome!", "Happy to help!", "My pleasure!"]
+    },
+    "about_bot": {
+        "patterns": ["who are you", "what are you", "tell me about yourself"],
+        "responses": ["I'm an AI chatbot designed to assist you with academic queries.", "I'm a virtual assistant here to help with your academic questions."]
+    },
+    "help": {
+        "patterns": ["help", "I need assistance", "can you help"],
+        "responses": ["Sure, I'd be glad to help with your academic queries. What do you need assistance with?", "Of course! What academic topic can I help you with?"]
+    },
+    "course": {
+        "patterns": ["available courses", "what courses do you offer", "list of courses"],
+        "responses": ["We offer the following courses: Python Programming, Data Science, Machine Learning, Web Development, Database Management, Artificial Intelligence, Computer Networks, and Cybersecurity."]
+    },
+    "web_development": {
+        "patterns": ["web development details", "tell me about web development", "web dev course"],
+        "responses": ["====Web Development====\nCourse Duration: 12 weeks\nCourse Price: $1500\nTopics Covered: HTML, CSS, JavaScript, React, Node.js, and Database Integration"]
+    },
+    "data_science": {
+        "patterns": ["data science details", "tell me about data science", "data science course"],
+        "responses": ["====Data Science====\nCourse Duration: 16 weeks\nCourse Price: $2000\nTopics Covered: Python, Statistics, Machine Learning, Data Visualization, and Big Data Technologies"]
+    },
+    "machine_learning": {
+        "patterns": ["machine learning details", "tell me about machine learning", "ML course"],
+        "responses": ["====Machine Learning====\nCourse Duration: 14 weeks\nCourse Price: $1800\nTopics Covered: Supervised Learning, Unsupervised Learning, Neural Networks, and Deep Learning"]
+    },
+    "admission_process": {
+        "patterns": ["how to apply", "admission process", "application procedure"],
+        "responses": ["To apply for our courses, please visit our website and fill out the online application form. You'll need to provide your educational background and choose your desired course. After submission, our admissions team will review your application and contact you for further steps."]
+    },
+    "course_schedule": {
+        "patterns": ["when do courses start", "course schedule", "class timings"],
+        "responses": ["Our courses have flexible start dates throughout the year. Most courses are offered in morning (9 AM - 1 PM) and evening (6 PM - 10 PM) batches to accommodate different schedules. Please check our website for the most up-to-date schedule information."]
+    },
+    "prerequisites": {
+        "patterns": ["what are the prerequisites", "do I need prior knowledge", "course requirements"],
+        "responses": ["Prerequisites vary by course. For beginner courses like Intro to Programming, no prior experience is needed. For advanced courses, basic programming knowledge or completion of prerequisite courses may be required. Check the specific course page for detailed requirements."]
+    },
+    "faculty": {
+        "patterns": ["who are the teachers", "faculty information", "instructor details"],
+        "responses": ["Our faculty consists of experienced professionals and academics in their respective fields. Each instructor has several years of industry or research experience. You can find detailed profiles of our faculty members on our website."]
+    },
+    "certification": {
+        "patterns": ["do I get a certificate", "is there a diploma", "course certification"],
+        "responses": ["Yes, upon successful completion of the course, you will receive a certificate of completion. Our certificates are recognized by many industry partners and can be a valuable addition to your resume."]
+    },
+    "placement_assistance": {
+        "patterns": ["job placement", "career support", "internship opportunities"],
+        "responses": ["We offer career support and placement assistance to our students. This includes resume workshops, mock interviews, and connections with our industry partners for internship and job opportunities. However, please note that while we assist in the process, job placement is not guaranteed."]
+    },
+    "fees_and_funding": {
+        "patterns": ["course fees", "payment options", "financial aid", "scholarships"],
+        "responses": ["Course fees vary depending on the program. We offer various payment plans and options for financial aid. Limited scholarships are also available based on merit and need. Please contact our financial aid office for detailed information on fees and funding options for your specific situation."]
+    },
+    "unknown": {
+        "patterns": [],
+        "responses": ["I'm not sure I understand. Could you please rephrase that?", "I don't have information about that. Can I help with something else related to our academic programs?"]
+    }
+}
